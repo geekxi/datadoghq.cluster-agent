@@ -3,4 +3,5 @@
 # FROM registry.k8s.io/kube-state-metrics/kube-state-metrics:v2.5.0
 # FROM ghcr.io/coroot/coroot:0.25.4
 # FROM ghcr.io/coroot/coroot-connect:2.0.4
-FROM docker.n8n.io/n8nio/n8n:latest
+# FROM docker.n8n.io/n8nio/n8n:latest
+FROM gpustack/gpustack:latest-npu
