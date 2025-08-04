@@ -4,4 +4,5 @@
 # FROM ghcr.io/coroot/coroot:0.25.4
 # FROM ghcr.io/coroot/coroot-connect:2.0.4
 # FROM docker.n8n.io/n8nio/n8n:latest
-FROM --platform=linux/arm64 gpustack/gpustack:latest-npu
+# FROM --platform=linux/arm64 gpustack/gpustack:latest-npu
+FROM --platform=linux/arm64 infiniflow/infinity:v0.6.0-dev5
