@@ -5,4 +5,5 @@
 # FROM ghcr.io/coroot/coroot-connect:2.0.4
 # FROM docker.n8n.io/n8nio/n8n:latest
 # FROM --platform=linux/arm64 gpustack/gpustack:latest-npu
-FROM --platform=linux/arm64 infiniflow/infinity:v0.6.0-dev5
+# FROM --platform=linux/arm64 infiniflow/infinity:v0.6.0-dev5
+FROM --platform=linux/arm64 quay.io/ascend/vllm-ascend:v0.9.2rc1
