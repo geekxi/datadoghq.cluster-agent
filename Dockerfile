@@ -9,4 +9,5 @@
 # FROM --platform=linux/arm64 quay.io/ascend/vllm-ascend:v0.9.2rc1
 # FROM --platform=linux/arm64 ghcr.io/immich-app/immich-machine-learning:release
 # FROM --platform=linux/arm64 ghcr.io/immich-app/immich-server:release
-FROM --platform=linux/amd64 gpustack/gpustack:latest
+# FROM --platform=linux/amd64 gpustack/gpustack:latest
+FROM --platform=linux/amd64 gpustack/gpustack:v0.7.1
