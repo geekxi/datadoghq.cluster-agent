@@ -10,5 +10,5 @@
 # FROM --platform=linux/arm64 ghcr.io/immich-app/immich-machine-learning:release
 # FROM --platform=linux/arm64 ghcr.io/immich-app/immich-server:release
 # FROM --platform=linux/amd64 gpustack/gpustack:latest
-#FROM --platform=linux/amd64 gpustack/gpustack:v0.7.0
+# FROM --platform=linux/amd64 gpustack/gpustack:v0.7.0
 FROM --platform=linux/arm64 gpustack/gpustack:v0.7.1-npu
