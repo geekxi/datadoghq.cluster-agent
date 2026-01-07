@@ -13,4 +13,5 @@
 # FROM --platform=linux/amd64 gpustack/gpustack:v0.7.0
 # FROM --platform=linux/arm64 gpustack/gpustack:v0.7.1-npu
 # FROM --platform=linux/amd64 gpustack/gpustack:v2.0.1rc2
-FROM --platform=linux/amd64 vllm/vllm-openai:v0.12.0
+# FROM --platform=linux/amd64 vllm/vllm-openai:v0.12.0
+FROM --platform=linux/amd64 ghcr.io/ggml-org/llama.cpp:server-cuda
